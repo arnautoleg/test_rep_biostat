@@ -5,10 +5,10 @@ date: "`r Sys.Date()`"
 output:
   word_document:
     toc: yes
+  html_document:
+    keep_md: true
    # reference_docx: 'example.docx'
-    
 toc-title: 'Оглавление'
-
 ---
 
 ```{r setup, include=FALSE}
